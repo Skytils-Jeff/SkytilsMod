@@ -150,7 +150,7 @@ dependencies {
     shadowMe(project(":hypixel-api:types"))
     shadowMe(project(":ws-shared"))
 
-    shadowMe("org.bouncycastle:bcpg-jdk18on:1.78.1") {
+    shadowMe("org.bouncycastle:bcpg-jdk18on:1.79") {
         exclude(module = "bcprov-jdk18on")
     }
     compileOnly("org.bouncycastle:bcprov-jdk18on:1.78.1")
