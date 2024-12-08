@@ -153,7 +153,7 @@ dependencies {
     shadowMe("org.bouncycastle:bcpg-jdk18on:1.78.1") {
         exclude(module = "bcprov-jdk18on")
     }
-    compileOnly("org.bouncycastle:bcprov-jdk18on:1.78.1")
+    compileOnly("org.bouncycastle:bcprov-jdk18on:1.79")
 
 
     compileOnly("net.hypixel:mod-api-forge:1.0.1.1") {
